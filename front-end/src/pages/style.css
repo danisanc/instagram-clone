@@ -1,0 +1,89 @@
+.feed,
+.new {
+    width: 768px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.feed .post-card {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.0975);
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.feed .post-card header {
+    height: 60px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    color: #262626;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.feed .post-card img {
+    max-width: 100%;
+}
+
+.feed .post-card footer {
+    padding: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.feed .post-card footer .post-actions {
+    margin-bottom: 10px;
+}
+
+.feed .post-card footer .post-actions i {
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+
+.feed .post-card footer .post-description {
+    color: #686868;
+}
+
+.feed .post-card footer .post-description > .author {
+    color: #262626;
+    font-weight: 600;
+}
+
+.feed .post-card footer .post-description > .hashtags {
+    color: rgb(97, 50, 206);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.new .form-new {
+    border: 1px solid rgba(0,0,0,.0975);
+    padding: 15px;
+    background-color: #fff;
+}
+
+.new .form-new label {
+    color: #262626;
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.new .form-new input {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,.0975);
+}
+
+.new .form-new input[type="submit"] {
+    width: 100%;
+    display: block;
+    margin-bottom: 0px;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,.0975);
+    cursor: pointer;
+}
